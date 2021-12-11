@@ -14,7 +14,7 @@ class Games(Base):
 
     
     def __repr__(self):
-        return f"<Item nome={self.name} preco={self.price}>" '''
+        return f"<Games nome={self.name} preco={self.price}>" '''
 
 
 Base.metadata.create_all(engine)
